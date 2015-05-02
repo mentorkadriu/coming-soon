@@ -29,9 +29,9 @@
 * [Montserrat](http://www.google.com/fonts): 400,700
 
 
-#### Smooth Scroll
+#### Countdown js
 
-[Smooth Scroll](http://owlgraphic.com/owlcarousel/)
+[Count down](http://keith-wood.name/countdown.html)
 
 #### Full image
 
