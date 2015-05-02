@@ -1,0 +1,16 @@
+{
+  "name": "coming-soon",
+	"version": "1.0.0",
+	"description": "Coming Soon - Landing page , html/css/js",
+	"keywords": "coming, lanching, soon, htmltopsd, html5, css3, foundation zurb",
+	"homepage": "",
+	"author": {
+		"name": "Mentor Kadriu"
+		, "email": "mentorkadriu@gmail.com"
+		, "url": "http://mentorkadriu.com/"
+	},
+  "devDependencies": {
+    "juice": "~1.0.1",
+    "foundation": "zurb/bower-foundation#~5.5.1"
+  }
+}

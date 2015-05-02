@@ -1,0 +1,216 @@
+
+/* --------------------------------------
+=========================================
+Kumbulla  - Coming Soon Page 
+Version: 1.0 (Initial Release)
+Designed By: Mentor Kadriu
+=========================================
+-----------------------------------------*/
+
+@import "juice";
+
+@import "foundation/functions";
+
+@import "foundation/settings";
+
+
+//-- SASS VARIABLES ---//
+
+//-- Colors
+
+$white : #ffffff;
+
+$red : #fd3267;
+
+//-- MEDIA QUERIES --//
+
+
+@media #{$small-up} { }
+@media #{$small-only} { }
+
+@media #{$medium-up} { }
+@media #{$medium-only} { }
+
+@media #{$large-up} { }
+@media #{$large-only} { }
+
+@media #{$xlarge-up} { }
+@media #{$xlarge-only} { }
+
+@media #{$xxlarge-up} { }
+@media #{$xxlarge-only} { }
+
+
+/*==============================
+=            HEADER            =
+==============================*/
+
+body {
+  color: #fff;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#wrapper {
+  float: left;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+}
+
+.fullscreen {
+    width:100%;
+    min-height:100%;
+    position: relative;
+    z-index: -100;
+    position:absolute;
+}
+.not-fullscreen,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+
+#logo {
+	padding-top: 2em;
+	@media #{$medium-up} {
+		padding-top: rem-calc(100px);
+	 }
+
+  a {
+    display: inline-block;
+  }
+}
+
+/*-----  End of HEADER  ------*/
+
+/*============================
+=            MAIN            =
+============================*/
+
+.brand {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  &_title {
+    color: $red;
+    font-size: rem-calc(30px);
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: rem-calc(25px);
+    padding-bottom: rem-calc(25px);
+    @media #{$medium-up} {
+    	font-size: rem-calc(72px);
+    	padding-top: rem-calc(50px);
+    	padding-bottom: rem-calc(50px);
+    }
+  }
+  &_subtitle {
+    color: $white;
+    font-size: rem-calc(28px);
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: rem-calc(30px);
+    @media #{$medium-up} {
+    	padding-bottom: rem-calc(50px);
+    }
+  }
+}
+
+
+#countdown-clock {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-bottom: rem-calc(25px);
+  float: left;
+  @media #{$medium-up} {
+  	padding-bottom: rem-calc(50px);
+  }
+  span.countdown-amount {
+    color: $white;
+    font-size: rem-calc(36px);
+    @media #{$medium-up} {
+    	font-size: rem-calc(78px);
+    }
+  }
+  span.countdown-period {
+    color: $red;
+    font-size: rem-calc(13px);
+  }
+}
+
+#form {
+	padding-bottom: 25px;
+	@media #{$medium-up} {
+		padding-bottom: rem-calc(100px);
+	}
+  input[type="text"] {
+    border: 1px solid $white;
+    height: rem-calc(51px);
+    background-color: transparent;
+    text-transform: uppercase;
+    color: $white;
+    font-size: rem-calc(13px);
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none
+    }
+  }
+  input[type="submit"] {
+    border: 1px solid $red;
+    height: rem-calc(51px);
+    text-transform: uppercase;
+    background-color: transparent;
+    color: $red;
+    font-size: rem-calc(13px);
+    &:hover {
+      border: 1px solid $red;
+      background-color: $red;
+      color: $white;
+    }
+  }
+}
+
+/*-----  End of MAIN  ------*/
+
+/*==============================
+=            FOOTER            =
+==============================*/
+
+#social-icons {
+  text-align: center;
+  display: block;
+  margin: 0;
+  li {
+    display: inline-block;
+    padding-left: rem-calc(23px);
+    padding-right: rem-calc(23px);
+    margin-bottom: rem-calc(16px);
+  }
+  i {
+    color: $red;
+    &:hover {
+    	color: $white;
+    }
+  }
+}
+
+/*-----  End of FOOTER  ------*/
+
+
+
+

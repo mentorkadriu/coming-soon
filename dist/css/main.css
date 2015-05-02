@@ -1,0 +1,143 @@
+/* --------------------------------------
+=========================================
+Kumbulla  - Coming Soon Page 
+Version: 1.0 (Initial Release)
+Designed By: Mentor Kadriu
+=========================================
+-----------------------------------------*/
+/*==============================
+=            HEADER            =
+==============================*/
+body {
+  color: #fff;
+  font-family: "Montserrat", sans-serif !important; }
+
+#wrapper {
+  float: left;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+/* background setup */
+.background {
+  background-repeat: no-repeat;
+  /* custom background-position */
+  background-position: 50% 50%; }
+
+.fullscreen {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: -100;
+  position: absolute; }
+
+.not-fullscreen, .fullscreen.not-overflow, .fullscreen.not-overflow .content-a {
+  height: 100%;
+  overflow: hidden; }
+
+#logo {
+  padding-top: 2em; }
+  @media only screen and (min-width:40.063em) {
+    #logo {
+      padding-top: 6.25rem; } }
+  #logo a {
+    display: inline-block; }
+
+/*-----  End of HEADER  ------*/
+/*============================
+=            MAIN            =
+============================*/
+.brand {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%; }
+  .brand_title {
+    color: #fd3267;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem; }
+    @media only screen and (min-width:40.063em) {
+      .brand_title {
+        font-size: 4.5rem;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem; } }
+  .brand_subtitle {
+    color: #ffffff;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 1.875rem; }
+    @media only screen and (min-width:40.063em) {
+      .brand_subtitle {
+        padding-bottom: 3.125rem; } }
+
+#countdown-clock {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-bottom: 1.563rem;
+  float: left; }
+  @media only screen and (min-width:40.063em) {
+    #countdown-clock {
+      padding-bottom: 3.125rem; } }
+  #countdown-clock span.countdown-amount {
+    color: #ffffff;
+    font-size: 2.25rem; }
+    @media only screen and (min-width:40.063em) {
+      #countdown-clock span.countdown-amount {
+        font-size: 4.875rem; } }
+  #countdown-clock span.countdown-period {
+    color: #fd3267;
+    font-size: 0.813rem; }
+
+#form {
+  padding-bottom: 25px; }
+  @media only screen and (min-width:40.063em) {
+    #form {
+      padding-bottom: 6.25rem; } }
+  #form input[type="text"] {
+    border: 1px solid #ffffff;
+    height: 3.188rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.813rem; }
+    #form input[type="text"]:focus {
+      outline: none; }
+    #form input[type="text"]:active {
+      outline: none; }
+  #form input[type="submit"] {
+    border: 1px solid #fd3267;
+    height: 3.188rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fd3267;
+    font-size: 0.813rem; }
+    #form input[type="submit"]:hover {
+      border: 1px solid #fd3267;
+      background-color: #fd3267;
+      color: #ffffff; }
+
+/*-----  End of MAIN  ------*/
+/*==============================
+=            FOOTER            =
+==============================*/
+#social-icons {
+  text-align: center;
+  display: block;
+  margin: 0; }
+  #social-icons li {
+    display: inline-block;
+    padding-left: 1.438rem;
+    padding-right: 1.438rem;
+    margin-bottom: 1rem; }
+  #social-icons i {
+    color: #fd3267; }
+    #social-icons i:hover {
+      color: #ffffff; }
+
+/*-----  End of FOOTER  ------*/
