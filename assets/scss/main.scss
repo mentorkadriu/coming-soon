@@ -1,7 +1,7 @@
 
 /* --------------------------------------
 =========================================
-Kumbulla  - Coming Soon Page 
+Kumbulla  - Coming Soon Page
 Version: 1.0 (Initial Release)
 Designed By: Mentor Kadriu
 =========================================
@@ -148,6 +148,10 @@ body {
   span.countdown-period {
     color: $red;
     font-size: rem-calc(13px);
+  }
+  &.is-countdown {
+    background: transparent;
+    border: none;
   }
 }
 

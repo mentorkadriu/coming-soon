@@ -51,10 +51,8 @@ $(window).focus(backgroundResize);
 backgroundResize();
 
 $(document).ready(function() {
-var newYear = new Date(); 
-newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
-$('#countdown-clock').countdown({until: newYear}); 
-// Countdown
-$('#countdown-clock').countdown({until: liftoffTime, format: 'YOWDHMS'}); 
+var newYear = new Date();
+newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1);
+$('#countdown-clock').countdown({until: newYear});
 
 });// End jQuery

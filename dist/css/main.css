@@ -1,6 +1,6 @@
 /* --------------------------------------
 =========================================
-Kumbulla  - Coming Soon Page 
+Kumbulla  - Coming Soon Page
 Version: 1.0 (Initial Release)
 Designed By: Mentor Kadriu
 =========================================
@@ -32,13 +32,15 @@ body {
   z-index: -100;
   position: absolute; }
 
-.not-fullscreen, .fullscreen.not-overflow, .fullscreen.not-overflow .content-a {
+.not-fullscreen,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
   height: 100%;
   overflow: hidden; }
 
 #logo {
   padding-top: 2em; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width: 40.063em) {
     #logo {
       padding-top: 6.25rem; } }
   #logo a {
@@ -58,9 +60,9 @@ body {
     font-size: 1.875rem;
     text-transform: uppercase;
     margin: 0;
-    padding-top: 1.563rem;
-    padding-bottom: 1.563rem; }
-    @media only screen and (min-width:40.063em) {
+    padding-top: 1.562rem;
+    padding-bottom: 1.562rem; }
+    @media only screen and (min-width: 40.063em) {
       .brand_title {
         font-size: 4.5rem;
         padding-top: 3.125rem;
@@ -71,7 +73,7 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding-bottom: 1.875rem; }
-    @media only screen and (min-width:40.063em) {
+    @media only screen and (min-width: 40.063em) {
       .brand_subtitle {
         padding-bottom: 3.125rem; } }
 
@@ -79,24 +81,27 @@ body {
   position: relative;
   display: block;
   width: 100%;
-  padding-bottom: 1.563rem;
+  padding-bottom: 1.562rem;
   float: left; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width: 40.063em) {
     #countdown-clock {
       padding-bottom: 3.125rem; } }
   #countdown-clock span.countdown-amount {
     color: #ffffff;
     font-size: 2.25rem; }
-    @media only screen and (min-width:40.063em) {
+    @media only screen and (min-width: 40.063em) {
       #countdown-clock span.countdown-amount {
         font-size: 4.875rem; } }
   #countdown-clock span.countdown-period {
     color: #fd3267;
-    font-size: 0.813rem; }
+    font-size: 0.812rem; }
+  #countdown-clock.is-countdown {
+    background: transparent;
+    border: none; }
 
 #form {
   padding-bottom: 25px; }
-  @media only screen and (min-width:40.063em) {
+  @media only screen and (min-width: 40.063em) {
     #form {
       padding-bottom: 6.25rem; } }
   #form input[type="text"] {
@@ -105,7 +110,7 @@ body {
     background-color: transparent;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 0.813rem; }
+    font-size: 0.812rem; }
     #form input[type="text"]:focus {
       outline: none; }
     #form input[type="text"]:active {
@@ -116,7 +121,7 @@ body {
     text-transform: uppercase;
     background-color: transparent;
     color: #fd3267;
-    font-size: 0.813rem; }
+    font-size: 0.812rem; }
     #form input[type="submit"]:hover {
       border: 1px solid #fd3267;
       background-color: #fd3267;
